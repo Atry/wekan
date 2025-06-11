@@ -57,6 +57,10 @@ paths:
           description: Successful authentication
           schema:
             type: object
+            required:
+              - id
+              - token
+              - tokenExpires
             properties:
               id:
                 type: string
