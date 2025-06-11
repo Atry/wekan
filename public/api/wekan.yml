@@ -66,6 +66,7 @@ paths:
                 description: Authentication token
               tokenExpires:
                 type: string
+                format: date-time
                 description: Token expiration date
         400:
           description: Error in authentication
