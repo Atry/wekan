@@ -62,6 +62,9 @@
                 python = {
                   enable = true;
                   venv = {
+                    requirements = ''
+                      esprima
+                    '';
                     enable = true;
                   };
                 };
