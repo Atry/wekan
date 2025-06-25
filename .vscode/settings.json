@@ -1,12 +1,17 @@
 {
+  "editor.rulers": [
+    80
+  ],
   "editor.tabSize": 2,
-  "editor.rulers": [80],
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
+  "files.associations": {
+    ".envrc.private": "shellscript"
+  },
   "files.exclude": {
-    "**/.git": true,
     "**/.DS_Store": true,
-    "node_modules": true,
-    ".meteor/local": true
-  }
+    "**/.git": true,
+    ".meteor/local": true,
+    "node_modules": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true
 }
