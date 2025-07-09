@@ -1070,7 +1070,7 @@ paths:
           in: formData
           description: |
             the settings object of the custom field
-          type: string
+          type: object
           required: true
         - name: showOnCard
           in: formData

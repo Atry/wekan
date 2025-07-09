@@ -352,7 +352,7 @@ if (Meteor.isServer) {
    * @param {string} boardID the ID of the board
    * @param {string} name the name of the custom field
    * @param {string} type the type of the custom field
-   * @param {string} settings the settings object of the custom field
+   * @param {object} settings the settings object of the custom field
    * @param {boolean} showOnCard should we show the custom field on cards?
    * @param {boolean} automaticallyOnCard should the custom fields automatically be added on cards?
    * @param {boolean} showLabelOnMiniCard should the label of the custom field be shown on minicards?
